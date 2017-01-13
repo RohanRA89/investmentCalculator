@@ -9,6 +9,6 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>moneyMaker</servlet-name>
-        <url-pattern>/investments</url-pattern>
+        <url-pattern>/investmentsResults</url-pattern>
     </servlet-mapping>
 </web-app>

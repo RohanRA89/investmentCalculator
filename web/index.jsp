@@ -11,9 +11,11 @@
     <title>Investment Calculator</title>
   </head>
   <body>
-  <form>
+  <h1>Welcome to the Investment Calculator</h1>
+  <form method="post" action="/investmentsResults">
     <table>
       <tr><td>First Name:</td><td><input type="text" name="firstName"></td></tr>
+      <tr><td>Last Name:</td><td><input type="text" name="lastName"></td></tr>
       <tr><td>Investment Amount:</td><td><input type="text" name="investAmount"></td></tr>
       <tr><td>Investment Return:</td><td><input type="text" name="investReturn"></td></tr>
     </table>

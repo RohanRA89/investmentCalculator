@@ -11,7 +11,7 @@
     <title>Results Of Your Investment</title>
 </head>
 <body>
-
+<h2>Hello <%=request.getAttribute("firName")%> <%=request.getAttribute("lasName")%> you invested <%=request.getAttribute("initialAmount")%> and wanted <%=request.getAttribute("investReturn")%> back. That's a <%=request.getAttribute("eval")%></h2>
 
 </body>
 </html>
